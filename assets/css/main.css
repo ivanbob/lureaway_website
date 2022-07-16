@@ -1923,6 +1923,7 @@
 	section.special, article2.special {
 		text-align: center;
 	}
+	
 /* Form */
 
 	form {
@@ -2830,7 +2831,7 @@
 	}
 
 		.features article {
-			padding: 1.75em 1.75em 0.1em 1.75em ;
+			padding: 0em 1.75em 0.1em 0em ;
 			/*background-color: #1d244f;*/
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
@@ -2844,9 +2845,9 @@
 			.features article .image {
 				border-radius: 5px 5px 0 0;
 				display: block;
-				margin-bottom: 1.75em;
-				margin-left: -1.75em;
-				margin-top: -1.75em;
+				margin-bottom: 1em;
+				margin-left: 0em;
+				margin-top: -1em; /*RASSTOJANIE OT TEKSTA DO KARTINKI ILI VIDEO*/
 				position: relative;
 				width: calc(100% + 3.5em);
 			}
@@ -2897,7 +2898,7 @@
 		
 /*my own article*/
 		.features article2 {
-			padding: 1.75em 1.75em 0.1em 1.75em;
+			padding: 1.75em 1.75em 0.1em 9.75em;
 			/*background-color: #1d244f;*/
 			/*border-radius: 5px;*/
 			margin: 1.5em 3em 1.5em 0;
@@ -3338,7 +3339,7 @@
 			border-bottom: solid 1px rgba(255, 255, 255, 0.125);
 			font-size: 1em; 
 			/*margin-bottom: 0.8em;*/
-			padding: 5em 0 3em 0 ;
+			padding: 2em 0 2em 0 ;
 			background-size: cover;
 			background-position:  top, center; /* was top; right */
 		}
@@ -3553,7 +3554,7 @@
 /* Wrapper */
 
 	#wrapper > header {
-		padding: 10em 0 2.25em 0 ;
+		padding: 0.1em 0 0.1em 0 ;
 	}
 
 		#wrapper > header .inner {
@@ -3564,8 +3565,8 @@
 		#wrapper > header h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2em;
-			margin-bottom: 0.8em;
-			padding-bottom: 0.4em;
+			margin-bottom: 0.1em;
+			padding-bottom: 0.1em;
 		}
 
 		#wrapper > header p {
@@ -3580,7 +3581,7 @@
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
-			padding: 9em 0 6.25em 0 ;
+			padding: 9em 0em 6.25em 0 ;
 			/*background-color: #2e3141;*/
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.3), rgba(46, 49, 65, 0.3));/*, url("../../images/header.jpg");*/
 			background-size: auto, cover;
@@ -3702,7 +3703,7 @@
 		/*background-color: #07003a; /*#25243d;*/  /*MAIN PAGE - LINES - PADDING*/
 		/*background-image: linear-gradient(rgba(0, 10, 51,0.4), rgba(0, 10, 51,0.4));*/
 		opacity: 1;
-		margin: 2em 0;
+		margin: 1em 0;
 		position: relative;
 	}
 
@@ -3723,7 +3724,7 @@
 			background-size: 100% 100%;
 			content: '';
 			display: block;
-			height: 6.5em;
+			height: 0em; /* VLAJAET NA RASSTONIE DO H2 */
 			position: absolute;
 			width: 100%;
 
@@ -3758,7 +3759,7 @@
 		}
 
 		.wrapper .inner {
-			padding: 3em 0 1em 0 ;
+			padding: 0em 0 0em 0 ;
 			margin: 0 auto;
 			width: 55em;
 		}
@@ -4090,7 +4091,7 @@
 /* Wrapper */
 
 	#wrapper2 > header {
-		padding: 2em 0 2em 0 ;
+		padding: 2em 0 0.1em 0 ; /*razmeshenie teksta v stranice*/
 	}
 
 		#wrapper2 > header .inner {
@@ -4101,7 +4102,7 @@
 		#wrapper2 > header h2 {
 			border-bottom: solid 2px rgba(255, 255, 255,0.125);
 			font-size: 2em;
-			margin-bottom: 0.8em;
+			margin-bottom: 0.2em;
 			padding-bottom: 0.4em;
 		}
 
@@ -4221,7 +4222,7 @@
 		}
 
 		.wrapper2 .inner {
-			/*padding: 1em 0 1em 0 ;*/
+			/*padding: 0.1em 0 1em 0 ;*/
 			margin: 0 auto;
 			width: 55em;
 		}
