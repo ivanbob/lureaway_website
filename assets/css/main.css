@@ -2302,8 +2302,7 @@
 				width: 100%;
 			}
 
-
-			
+	
 			
 /* List */
 
@@ -2856,29 +2855,69 @@
 					border-radius: 5px 5px 0 0;
 					width: 70%;
 				}
+			.features article .iframe {
+				border-radius: 5px 5px 0 0;
+				display: block;
+				margin-bottom: 1em;
+				margin-left: 0em;
+				margin-top: -1em; /*RASSTOJANIE OT TEKSTA DO KARTINKI ILI VIDEO*/
+				position: relative;
+				/*width: calc(100% + 3.5em);*/
+				/*height: calc(100% + 425em);*/
+			}
+
+				.features article .iframe img {
+					border-radius: 5px 5px 0 0;
+					width: 100%;
+				}	
 
 		@media screen and (max-width: 980px) {
+				.features {
+				display: block;
+			}
 
 			.features article {
-				margin: 1em 2em 1em 0;
+				margin: 0.1em 0.5em 0.1em 0;
 				width: calc(50% - 1em);
 			}
+				.features article .iframe {
+					margin-bottom: 1.5em;
+					margin-left: -1.5em;
+					margin-top: -1.5em;
+					width: 500px;
+					height: 425px;
+					margin: 0 auto;
+					
+				}
 
 		}
 
 		@media screen and (max-width: 736px) {
 
+
 			.features article {
-				padding: 1.5em 1.5em 0.1em 1.5em ;
+				/*padding: 1.5em 1.5em 0.1em 1.5em ;
 				margin: 0.875em 1.75em 0.875em 0;
-				width: calc(50% - 0.875em - 1px);
+				width: calc(50% - 0.875em - 1px);*/
+					width: 100%;
+					margin: 0 0 0.1em 0 !important;
 			}
+			
 
 				.features article .image {
 					margin-bottom: 1.5em;
 					margin-left: -1.5em;
 					margin-top: -1.5em;
 					width: calc(100% + 3em);
+				}
+				.features article .iframe {
+					margin-bottom: 1.5em;
+					margin-left: -1.5em;
+					margin-top: -1.5em;
+					width: 400px;
+					height: 325px;
+					margin: 0 auto;
+					
 				}
 
 		}
@@ -2892,6 +2931,15 @@
 				.features article {
 					width: 100%;
 					margin: 0 0 2em 0 !important;
+				}
+				.features article .iframe {
+					margin-bottom: 1.5em;
+					margin-left: -1.5em;
+					margin-top: -1.5em;
+					width: 400px;
+					height: 325px;
+					margin: 0 auto;
+					
 				}
 
 		}
@@ -2928,13 +2976,51 @@
 					border-radius: 5px 5px 0 0;
 					width: 100%;
 				}
+			.features article2 .iframe {
+				border-radius: 5px 5px 0 0;
+				display: block;
+				margin-bottom: 1.75em;
+				margin-left: -1.75em;
+				margin-top: -1.75em;
+				position: relative;
+				/*width: calc(100% + 3.5em);*/
+			}
 
+				.features article2 .iframe img {
+					border-radius: 5px 5px 0 0;
+					width: 100%;
+				}
+			.features article2 .iframe {
+				border-radius: 5px 5px 0 0;
+				display: block;
+				margin-bottom: 1em;
+				margin-left: 0em;
+				margin-top: -1em; /*RASSTOJANIE OT TEKSTA DO KARTINKI ILI VIDEO*/
+				position: relative;
+				/*width: calc(100% + 3.5em);*/
+				/*height: calc(100% + 425em);*/
+			}
+
+				.features article2 .iframe img {
+					border-radius: 5px 5px 0 0;
+					width: 100%;
+				}	
 		@media screen and (max-width: 980px) {
 
 			.features article2 {
 				margin: 1em 2em 1em 0;
 				width: calc(50% - 1em);
 			}
+				.features article2 .iframe {
+					margin-bottom: 1.5em;
+					margin-left: -1.5em;
+					margin-top: -1.5em;
+					width: 500px;
+					height: 425px;
+					margin: 0 auto;
+					
+				}
+
 
 		}
 
@@ -2952,6 +3038,15 @@
 					margin-top: -1.5em;
 					width: calc(100% + 3em);
 				}
+				.features article2 .iframe {
+					margin-bottom: 1.5em;
+					margin-left: -1.5em;
+					margin-top: -1.5em;
+					width: 450px;
+					height: 375px;
+					margin: 0 auto;
+					
+				}
 
 		}
 
@@ -2965,6 +3060,15 @@
 					width: 100%;
 					margin: 0 0 2em 0 !important;
 				}
+				.features article2 .iframe {
+					margin-bottom: 1.5em;
+					margin-left: -1.5em;
+					margin-top: -1.5em;
+					width: 400px;
+					height: 325px;
+					margin: 0 auto;
+					
+				}
 
 		}
 
@@ -2976,7 +3080,7 @@
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
 		background-color: rgba(53, 56, 73, 0); /*color and opacity of the top h1*/
-		height: 3.5em; 
+		height: 0em; /*first top line head height*/ 
 		left: 0;
 		line-height: 3.5em;
 		/*padding: 0 1.25em;25.03*/
@@ -3070,7 +3174,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.75em;
+				height: 0em;
 				line-height: 2.75em;
 			}
 
@@ -3890,7 +3994,18 @@
 					/*border-radius: 100%;*/
 					width: 100%;
 				}
+			.wrapper.spotlight .iframe {
+				/*border-radius: 100%;*/
+				margin: 0 3em 2em 0;
+				width: 22em;
+				overflow: hidden;
+				-ms-flex: 1;
+			}
 
+				.wrapper.spotlight .iframe img {
+					/*border-radius: 100%;*/
+					width: 100%;
+				}
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
@@ -3905,6 +4020,9 @@
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
+				margin: 0 0 2em 3em;
+			}
+			.wrapper.spotlight:nth-child(2n - 1) .iframe {
 				margin: 0 0 2em 3em;
 			}
 
@@ -4058,8 +4176,14 @@
 					width: 19em;
 					margin: 0 1.75em 2em 0;
 				}
-
+				.wrapper.spotlight .iframe {
+					width: 19em;
+					margin: 0 1.75em 2em 0;
+				}
 				.wrapper.spotlight:nth-child(2n - 1) .image {
+					margin: 0 0 2em 1.75em;
+				}
+				.wrapper.spotlight:nth-child(2n - 1) .iframe {
 					margin: 0 0 2em 1.75em;
 				}
 
@@ -4072,6 +4196,11 @@
 			}
 
 			.wrapper.spotlight .image {
+				margin: 0 0 1em 0 !important;
+				max-width: 85%;
+				width: 12em;
+			}
+			.wrapper.spotlight .iframe {
 				margin: 0 0 1em 0 !important;
 				max-width: 85%;
 				width: 12em;
@@ -4092,13 +4221,23 @@
 
 	#wrapper2 > header {
 		padding: 2em 0 0.1em 0 ; /*razmeshenie teksta v stranice*/
+		text-align: center;
+		align-items: center;
 	}
 
 		#wrapper2 > header .inner {
 			margin: 0 auto;
 			width: 55em;
 		}
+		
+				#wrapper2 > header .inner .image {
+			margin: auto;
+			width: 50%;
+					align-items: center;
+		}
+				
 
+		
 		#wrapper2 > header h2 {
 			border-bottom: solid 2px rgba(255, 255, 255,0.125);
 			font-size: 2em;
@@ -4118,6 +4257,7 @@
 	@media screen and (max-width: 1280px) {
 
 		#wrapper2 > header {
+					align-items: center;
 			padding: 9em 0 6.25em 0 ;
 			/*background-color: #2e3141;*/
 			/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.3), rgba(46, 49, 65, 0.3));/*, url("../../images/header.jpg");*/
@@ -4225,6 +4365,7 @@
 			/*padding: 0.1em 0 1em 0 ;*/
 			margin: 0 auto;
 			width: 55em;
+			
 		}
 
 		.wrapper2.style2 {
@@ -4345,19 +4486,31 @@
 /*MAIN WRAPPER IMAGE*/
 			.wrapper2.spotlight .image {
 				/*border-radius: 100%;*/
+				align-items: center;
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
-
+			.wrapper2.spotlight .iframe {
+				/*border-radius: 100%;*/
+				margin: 0 3em 2em 0;
+				width: 22em;
+				overflow: hidden;
+				-ms-flex: 1;
+			}
 				.wrapper2.spotlight .image img {
 					/*border-radius: 100%;*/
 					width: 100%;
+					
 				}
-
+				.wrapper2.spotlight .iframe img {
+					/*border-radius: 100%;*/
+					width: 100%;
+				}
 			.wrapper2.spotlight .content {
 				width: 100%;
+
 				-ms-flex: 2;
 			}
 
@@ -4372,7 +4525,9 @@
 			.wrapper2.spotlight:nth-child(2n - 1) .image {
 				margin: 0 0 2em 3em;
 			}
-
+			.wrapper2.spotlight:nth-child(2n - 1) .iframe {
+				margin: 0 0 2em 3em;
+			}
 			.wrapper2.spotlight.style2 { /*eto polosa dsicography*/
 				/*background-color: #000000;*/
 			}
@@ -4482,11 +4637,16 @@
 					margin: 0 2em 2em 0;
 					width: 32em;
 				}
-
+				.wrapper2.spotlight .iframe {
+					margin: 0 2em 2em 0;
+					width: 32em;
+				}
 				.wrapper2.spotlight:nth-child(2n - 1) .image {
 					margin: 0 0 2em 2em;
 				}
-
+				.wrapper2.spotlight:nth-child(2n - 1) .iframe {
+					margin: 0 0 2em 2em;
+				}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4523,11 +4683,16 @@
 					width: 19em;
 					margin: 0 1.75em 2em 0;
 				}
-
+				.wrapper2.spotlight .iframe {
+					width: 19em;
+					margin: 0 1.75em 2em 0;
+				}
 				.wrapper2.spotlight:nth-child(2n - 1) .image {
 					margin: 0 0 2em 1.75em;
 				}
-
+				.wrapper2.spotlight:nth-child(2n - 1) .iframe {
+					margin: 0 0 2em 1.75em;
+				}
 		}
 
 		@media screen and (max-width: 640px) {
@@ -4537,6 +4702,11 @@
 			}
 
 			.wrapper2.spotlight .image {
+				margin: 0 0 1em 0 !important;
+				max-width: 85%;
+				width: 12em;
+			}
+			.wrapper2.spotlight .iframe {
 				margin: 0 0 1em 0 !important;
 				max-width: 85%;
 				width: 12em;
