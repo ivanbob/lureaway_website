@@ -1640,7 +1640,7 @@
 /*MAIN PAGE BACKGROUND - funkcija rgba poslednija cifra eto transperancy*/
 	body {
 		background-color: #000000; /*#25243d;#2c243d;*/
-		background-image: linear-gradient(rgba(37, 36, 61, 0.4), rgba(37, 36, 61, 0.4)), url("../../images/Lureaway_CD FRONT.png");
+		background-image: linear-gradient(rgba(37, 36, 61, 0.4), rgba(37, 36, 61, 0.4)), url("../../images/Lureaway_CD FRONT.jpg");
 		/*background-image: linear-gradient(rgba(28, 23, 63, 0.3), rgba(28, 23, 63, 0.3)), url("../../images/2.gif");*/
 		background-size: cover;
 		background-attachment: fixed, fixed;
